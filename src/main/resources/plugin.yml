@@ -1,0 +1,26 @@
+name: TCAccess
+description: Remote Access for your Tekkit Classic server.
+prefix: Access
+version: 1.0.0-BETA
+
+load: STARTUP
+main: nl.hypothermic.tcaccess.Main
+database: false
+
+author: hypothermic
+website: hypothermic.nl
+
+commands:
+   tca:
+      description: TCA main command which shows the status
+      usage: /tca
+      permission: tcaccess.tca
+permissions:
+    tcaccess.*:
+        description: Allows you to access all TCAccess commands.
+        default: false
+        children:
+            tcaccess.tca: true
+    tcaccess.tca:
+        description: Allows you to use /tca command.
+        default: false
