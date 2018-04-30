@@ -1,6 +1,7 @@
 ## Access
 Access is a remote management plugin for Tekkit Classic. When this plugin is enabled, you can control your Tekkit server with the Android app. (more platforms coming)
 ![Preview](preview.png)
+![Preview2](preview2.png)
 
 ### Installation
 You can install Access like any other Bukkit plugin, **make sure** that you have defined a path to your Java Keystore (for SSL encryption) in the config.yml
